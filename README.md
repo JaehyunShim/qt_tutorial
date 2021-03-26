@@ -1,6 +1,6 @@
 # QT Tutorial
 
-## RUn
+## Run
 ```sh
 1. Click on 'Open Project'
 2. Select the project you want to run
@@ -10,10 +10,11 @@
 
 ## Reference
 - https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63
+- https://www.youtube.com/channel/UCs6nmQViDpUw0nuIx9c_WvA
 
 ## Issue
 - Find a way to prevent file-written time in .user files from geting updated every time...
-- If Console does not pop up in Ubuntu 20.04
+- If Console does not pop up in Ubuntu 20.04, do as follows
 ```sh
 1. Install xterm
 $ sudo apt-get install xterm
