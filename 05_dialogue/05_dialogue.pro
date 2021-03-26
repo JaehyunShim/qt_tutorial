@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-03-25T11:36:00
+# Project created by QtCreator 2021-03-25T13:06:56
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 4_signal_slot
+TARGET = 05_dialogue
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,13 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        mydialog.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+        mydialog.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+        mydialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
