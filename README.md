@@ -1,6 +1,6 @@
 # QT Tutorial
 
-## Run
+## How to Run
 ```sh
 1. Click on 'Open Project'
 2. Select the project you want to run
