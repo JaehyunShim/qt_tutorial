@@ -18,7 +18,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-//    QString file_name = QFileDialog::getOpenFileName(this, "Open a file", "/home/robotis");
-    QString file_name = QFileDialog::getOpenFileName(this, "Open a file", QDir::homePath());
+    // To give absolute path
+    // QString file_name = QFileDialog::getOpenFileName(this, "Open a file", "/home/robotis");
+
+    // To give home path
+    // QString file_name = QFileDialog::getOpenFileName(this, "Open a file", QDir::homePath());
+
+    // To get existing directoy path
+    QString file_name = QFileDialog::getExistingDirectory(this, "Get existing directory", QDir::homePath());
+
     QMessageBox::information(this, "File path", file_name);
 }
